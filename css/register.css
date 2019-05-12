@@ -1,0 +1,153 @@
+.head {
+    padding: 30px;
+    box-shadow: 3px 7px 3px #eee; }
+  
+  .logo {
+    float: left; }
+  
+  .logo img {
+    width: 300px;
+    height: 100px; }
+  
+  .logo span {
+    font: 26px/4 "";
+    margin-left: 10px; }
+  
+  .saoma {
+    float: right;
+    padding: 30px;
+    font: 16px/2 ""; }
+  
+  .register {
+    border-top: 1px solid #ccc;
+    padding: 30px 30px 10px 30px; }
+  
+  .regtips {
+    width: 850px;
+    height: 40px;
+    line-height: 40px;
+    background: #ff9600;
+    border-radius: 5px;
+    margin: 0 auto 25px;
+    font-size: 12px;
+    color: #fff;
+    overflow: hidden; }
+    .regtips span {
+      float: left;
+      width: 80px;
+      height: 40px;
+      background: #b3731f url(https://style.org.hc360.com/images/my/images/regist/new/regtipsimg.png) no-repeat 27px 6px;
+      display: block; }
+    .regtips p {
+      float: left;
+      width: 770px;
+      text-align: center; }
+  
+  .regList {
+    height: 600px; }
+    .regList ul {
+      width: 640px;
+      margin: 0 auto; }
+    .regList li {
+      margin-bottom: 16px;
+      float: left;
+      width: 640px;
+      min-height: 38px; }
+    .regList .agreement {
+      margin-left: 148px; }
+  
+  .regLeft {
+    width: 140px;
+    line-height: 38px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+    padding-right: 15px;
+    height: 38px;
+    white-space: nowrap; }
+    .regLeft em {
+      padding-right: 5px;
+      color: #d11120;
+      font-size: 12px;
+      font-style: normal; }
+    .checkreg{
+      display: block;
+      float: right;
+      color:red;
+      font-size: 14px;
+      margin-right: 20px;
+    }
+  .regRight {
+    float: left;
+    width: 300px;
+    position: relative; }
+    .regRight input.iText {
+      width: 268px;
+      height: 36px;
+      background: none;
+      line-height: 36px;
+      padding: 0 20px 0 10px;
+      float: left;
+      padding-right: 20px;
+      border: 1px solid #ddd;
+      z-index: 10;
+      position: relative;
+      font-size: 12px; }
+    .regRight .iBox {
+      height: 40px;
+      width: 300px;
+      position: relative;
+      display: inline-block; }
+      .regRight .iBox a {
+        display: block;
+        float: right;
+        font-size: 12px;
+        line-height: 40px;
+        color: #999;
+        margin-left: 10px;
+        width: 60px;
+        white-space: nowrap;
+        text-decoration: none; }
+  
+  #captcha, .VerText {
+    width: 110px;
+    height: 36px; }
+  
+  #msg {
+    width: 106px;
+    height: 41px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    color: #999; }
+  
+  #check {
+    float: left;
+    margin: 0 5px; }
+  
+  .regRig a {
+    text-decoration: none;
+    color: #0c76f4;
+    font-size: 12px; }
+  
+  #free {
+    background: #ee2e2c;
+    display: block;
+    height: 40px;
+    width: 300px;
+    color: #fff;
+    margin-left: 155px;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+    border: none;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 15px; }
+  
+  .footer {
+    padding: 50px;
+    border-top: 1px solid #ccc; }
+  

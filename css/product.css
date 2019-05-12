@@ -1,0 +1,36 @@
+
+.industryBox { margin-top: 10px;padding-top: 5px;background: #f5f5f5;overflow: hidden;}
+.proBoxTit {margin: 20px 0 15px;overflow: hidden;}
+.proBoxTit span {float: left;width: 5px;height: 25px;background: #ee2e2b;display: block;margin-right: 10px;}
+.proBoxTit h3 {float: left;font-size: 24px;color: #333;line-height: 24px;}
+.proBoxTit p {float: left;font-size: 14px;color: #666;line-height: 20px;margin-left: 15px;padding-top: 4px;}
+.industryBox .list {height: 60px;background: #fff;border-bottom: 1px solid #ee2e2c;margin: 17px 0 20px;position: relative;}
+.list ul li{float: left;height: 60px;width: 78px;border-left:1px solid #eee;}
+.list ul li:nth-child(1){border-left:0;}
+.list ul li span{display: block;text-align: center;}
+.list ul li img{display: block;margin: 0 auto;}
+.list ul li:hover{color: red;cursor: pointer;}
+.prodlist{width: 218px;margin: 0 22px 20px 0;background: #fff;width: 1200px;position: relative;}
+.prodlist .clear li{border: 1px solid #eee;width:200px;float: left;margin:10px 18px;}
+.prodlist .clear li a img{height:200px;width:200px}
+.prodlist .info {padding: 10px;}
+.prodlist .info .price {font-size: 16px;line-height: 16px;overflow: hidden;margin: 4px 0;}
+.prodlist .info .price span:nth-child(1) {float: left;color: #f40;font-weight: 700;}
+/* .prodlist .info .price span:nth-child(2){float: left;color: #fff;background: #f85300;margin-left:4px;} */
+.prodlist .info .shopname{overflow: hidden;margin-top: 5px;}
+.prodlist .info .shopname span{display: block;float: left;}
+.prodlist .info .shopname span:nth-child(1){overflow: hidden;white-space: nowrap;color: #888;text-decoration: underline;}
+.prodlist .info .shopname span:nth-child(2){width: 85px;float: right;}
+.pagWarp{height: 40px;box-shadow: 0 2px 5px #b6b6b6;border-radius: 2px;text-align: center;width: 160px;margin: 0 auto;line-height: 32px;font:16px/32px "";}
+#btnL,#btnR{cursor: pointer;display: block;padding: 3px;}
+#btnL{float: left;}
+#btnR{float: right;}
+
+#page{float: left;text-align: center;cursor: pointer;}
+#page li{float: left;padding: 3px;}
+#page li.active{font:20px/32px "";color:red;font-weight: 700;}
+
+
+
+
+

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td,figure{margin:0;padding:0;}
+body{font:12px  "宋体"; word-wrap:break-word;}
+a,u,s,del{color:#666;text-decoration:none} 
+fieldset ,a img,.bor0{border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+li{list-style:none;}
+img{vertical-align:middle;}
+table{border-collapse:collapse;}/*合并边框*/
+textarea{resize:none;/*禁止拖动*/}
+.ind2{text-indent:2em;}
+
+/*溢出隐藏*/
+.over{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+/*图片垂直对齐*/
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}
+.valign:after{content:"";display:inline-block;vertical-align:middle;height:100%;}
+
+/*万能清除法*/
+.clear:before{content:"";display:table;}/*阻止margin-top向上传递*/
+.clear:after{content:"";display:block;clear:both;}/*清除浮动*/
+
+.footer p{line-height: 22px;text-align: center;}
+.margin{width: 1200px;margin: 0 auto;}
+.top{background: #eee;height:30px;font: 12px "";margin-bottom: 20px;}
+.top .top-l{float: left;line-height: 16px;display: flex;}
+.top .top-l span{display:block;margin: 5px;}
+.top .top-l span:nth-child(1){margin-right: 15px;}
+.top .top-r{float: right;display: flex;height: 16px;justify-content: center;}
+.top .top-r a{display:block;height: 16px;line-height: 16px;margin: 5px;}
+.top .top-r span{height: 16px;line-height: 16px;display:block;margin: 5px;}
+.banner{width: 1120px;margin: 0 auto;margin-bottom: 20px;display: flex;margin-left: 35px;}
+.head .logo a img{float:left;width: 300px;height: 100px;}
+.head .head-c{float: left;margin:35px 0 0 50px;position: relative;}
+.head .head-c .sea{float: left;width: 400px;height: 30px;border: 2px solid red;outline: none;font: 16px/34px "";}
+.head .head-c .btn{float: right;width: 80px;height: 34px;border: 0;background: red;color: #fff;margin-left: -6px;outline: none;cursor: pointer;}
+.head .head-c .search-res{position: absolute;z-index: 1;background: #fff;top:34px;width: 400px;}
+.head .head-c .search-res li{list-style-type: none;line-height: 20px;padding: 2px 5px;border: 1px solid #eee;border-bottom: 0;}
+
+
+.head .head-r{float: right;display: flex;margin-top:35px}
+.head .head-r p{width: 100px;height: 32px;border:1px solid #ccc;background: #eee;border-radius: 5px;text-align: center;font:16px/32px "";margin:0 20px;}

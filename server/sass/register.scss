@@ -1,0 +1,65 @@
+
+.head{padding:30px;}
+.logo{float: left;}
+.logo img{width:300px;height: 100px;}
+.logo span{font:26px/4 "";margin-left: 10px;}
+.saoma{float: right;}
+ .login{height:480px;background:url(http://img01.hc360.com/chat/201904/201904221441235588.jpg) no-repeat;background-size: 100% 480px;
+.loginr{
+    background: #fff;float: right;margin: 20px 140px 20px 0;
+    }
+    .logint p{width:130px;float: left;font-weight: bold;font: 18px/20px "";margin: 20px;a{color:#ee2e2c;}}
+    .userbox{border-top:  1px solid #ddd;border-bottom:  1px solid #ddd;font-size: 12px;
+        margin-bottom: 8px;overflow: hidden;
+        padding-left: 10px;}
+        .notspand{background: #ffebeb;height: 20px;margin:5px 15px 5px 0;line-height: 20px;}
+        span{margin: 0;
+            padding: 0;
+            border: 0;
+            font-weight: inherit;
+            font-style: inherit;
+            vertical-align: baseline;color: red;padding-left: 10px;}
+}
+.logint p:nth-child(1){border-right: 1px solid #ddd;}
+.logint p a.er{color:#ccc;&:hover{color: #ee2e2c;}}
+
+.error{float: left;width: 20px;height: 20px;
+img{margin-top: -5px;}}
+.vip-login-inptxt {
+    margin-top: 10px;width: 306px;
+    height: 40px;
+    font-size: 12px;
+    position: relative;
+}
+#LoginID{
+    border: 1px solid #61affd;width: 315px;height: 30px;
+}
+label{    color: #0190eb;
+    font-size: 12px;
+    left: 10px;
+    position: absolute;
+    top: -8px;
+    background: #fff;
+    width: 126px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;}
+.forget{float: right;}
+.password{margin: 10px 0;input{width: 315px;height: 30px;outline: 0;}}
+.sub{margin:10px 0;input{width: 315px;height: 30px;outline: 0;display: block;background: #d11120;color: #fff;border: 1px solid #d11120;height: 38px;cursor: pointer;
+    text-align: center;
+    font: 20px/38px "";
+    margin-top: 10px;}
+    }
+#regiser{background:#fff;color:#d11120;&:hover{background: #d11120;color: #fff;}}
+.line1{text-align: center;line-height: 30px;font-size:14px;color: #333;margin-bottom: 30px;}
+.other-font {
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    margin: 8px 17px;
+    float: left;background: #ccc;
+}
+.other-enter img{width:63px;height: 33px;}
+
+.footer{padding: 50px;border-top: 1px solid #ccc;}

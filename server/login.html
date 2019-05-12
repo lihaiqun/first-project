@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/public.css">
+</head>
+<body>
+    <div class="head clear">
+        <div class="margin clear">
+            <div class="logo">
+                <a href=""><img src="img/logo.jpg" alt=""></a>
+                <span>注册账号</span>
+            </div>
+            <div class="saoma">
+                <span>我是会员，点此 <a href="login.html"> 登录</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="register">
+        <div class="regtips">
+            <span></span>
+            <p>国家法律规定，用户在网络平台发布信息需提供真实身份信息进行备案。请您注册成功并登陆会员中心后根据页面提示立即完成实名认证。</p>
+        </div>
+        <div class="regList">
+            <div class="margin clear">
+                <ul>
+                    <li>
+                        <div class="regLeft"><em>*</em>会员用户名：</div>
+                        <div class="regRight">
+                            <input type="text" class="iText" value="" maxlength="15" placeholder="请设置4-15位字母、字母+数字组合">
+                    </li>
+                    <li>
+                        <div class="regLeft"><em>*</em>密码：</div>
+                        <div class="regRight">
+                             <input type="password" class="iText" value="" maxlength="20" placeholder="请设置6-20位字母、数字及符号">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="regLeft"><em>*</em>确认密码：</div>
+                        <div class="regRight">
+                        <input type="password" class="iText" value="" maxlength="20" placeholder="请再次确认密码">
+                    </li>
+                    <li>
+                        <div class="regLeft"><em>*</em>企业名称：</div>
+                        <div class="regRight">
+                            <input class="iText" type="text" value="" maxlength="25" placeholder="请输入营业执照上的公司名称">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="regLeft"><em>*</em>联系人：</div>
+                        <div class="regRight">
+                            <input type="text" class="iText" value="" maxlength="30" placeholder="请输入联系人">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="regLeft"><em>*</em>手机号码：</div>
+                        <div class="regRight">
+                            <input type="text" class="iText" maxlength="11" value="" placeholder="请输入手机号码">
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="regLeft"><em>*</em>验证码：</div>
+                        <div class="regRight">
+                            <div class="iBox">
+                                <input type="text" placeholder="请输入图中结果" id="captcha" class="VerText" maxlength="4">
+                                <img width="92" height="38" title="验证码" id="validate_map" src="img/test.png">
+                                <a href="">看不清，换一张</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="regLeft"><em>*</em>短信验证码：</div>
+                        <div class="regRight">
+                            <div class="iBox">
+                                <input type="text" class="VerText" placeholder="请输入短信验证码">
+                                <button type="button" class="VerBtn VerGrayBtn" tabindex="5" id="msg">获取短信验证码</button>
+                            </div>
+                            <div class="promptBox"></div>
+                            <div class="telPrompt" style="display:none;" id="divCheckCodePrompt"></div>
+                        </div>
+                    </li>                
+    
+                    <li class="agreement">
+                        <div class="regRig">
+                            <label><input id="check" type="checkbox"><span>您确认阅读并接受</span></label><a href="">《慧聪网会员注册协议》</a>
+                            <a href="">《慧聪网隐私政策条款》</a>
+                        </div>
+                    </li>
+                    <li><a href="" id="free">免费注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>客服咨询热线：400-6360-888 (免长途费)   投诉热线：010-61723333 （工作时间：8:00-19:00）</p>
+        <p>
+        <a href="">关于颜淘</a> | <a href="">分支机构</a> | <a href="">广告服务</a> | <a href="">买卖通渠道</a> | <a href="">网站导航</a> | <a href="">意见投诉</a> | <a href="">法律声明</a> | <a href="">帮助中心</a> | <a href="">友情链接</a> | <a href="">手机极速版</a>
+        </p>
+        <p>互联网药品信息服务资格证书：（京）－经营性－2010－0004　海淀公安局网络备案编号：1101081197</p>
+        <p>版权所有 慧聪网 <a href="">京ICP证010051号</a> 通用网址：hc360</p>
+        <p>Copyright©2000-2018 hc360.com. All Rights Reserved</p>
+    </div>
+</body>
+<!-- <script src="js/jquery.js"></script>
+<script src="js/ajax.3.0.js"></script>
+<script src="js/login.js"></script> -->
+</html>
